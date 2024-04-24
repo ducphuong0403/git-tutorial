@@ -1,0 +1,11 @@
+Bước 1: Cấu hình user.name và user.email
+Bước 2: Tạo git repos: câu lệnh: git init (Tạo kho lưu trữ)
+Bước 3: Các câu lệnh cơ bản
+		+ git status : cho biết trạng thái các file trong thư mục 	
+		+ git log : Xem lại các commit khác nhau
+		
+*** Staging Area: khu vực theo dõi các file sẽ được thực hiện ở lần commit tiếp theo		
+	Thư mục đang làm việc       		Staging Area 				Commited
+		file1
+(git add) 	file2			->				file2
+(git commit)file2						->							  file2
