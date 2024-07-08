@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+ 
+    <typeAliases>
+        <typeAlias alias="Project" type="fa.training.demoSpringBoot.model.Project" />
+        <typeAlias alias="Dept" type="fa.training.demoSpringBoot.model.Dept" />
+    </typeAliases>
+ 
+    <mappers>
+        <mapper resource="fa/training/demoSpringBoot/mapper/Project.xml" />
+        <mapper resource="fa/training/demoSpringBoot/mapper/Dept.xml" />
+    </mappers>
+ 
+</configuration>
