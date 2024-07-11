@@ -13,7 +13,7 @@ import fa.training.demoSpringBoot.model.Project;
 import fa.training.demoSpringBoot.service.ProjectService;
 
 @Controller
-public class ListController implements ErrorController {
+public class ListController2 implements ErrorController {
 	
 	@RequestMapping("/error")
     public String handleError() {
@@ -27,6 +27,6 @@ public class ListController implements ErrorController {
     public String showListProject(Model model) {
         List<Project> projects = projectService.selectAllProject();
         model.addAttribute("projects", projects);
-        return "login"; // Trả về tên của template Thymeleaf (login.html)
+        return "login2"; // Trả về tên của template Thymeleaf (login.html)
     }
 }
